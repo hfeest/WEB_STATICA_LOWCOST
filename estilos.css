@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|typicons);
+@import url(info.css);
+@import url(banner.css);
+@import url(menu.css);
+@import url(blog.css);
+@import url(contact.css);
+@import url(sociales.css);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
+
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    scroll-margin-top: 50px;
+    scroll-margin-bottom: 100px;
+    
+}
+
+#bienvenidos {
+    text-align: center;
+
+    justify-content: center;
+    padding-top: 48vh;
+    
+}
+
+#bienvenidos .contenedor{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
